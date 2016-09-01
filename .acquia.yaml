@@ -1,0 +1,13 @@
+build-steps:
+    - prebuild:
+        type: script
+        script:
+          - echo "This is from the 'site_themes' repo"
+    - drush-make:
+        type: make
+        makefile: d7.make
+        options: --no-patch-txt --no-gitinfofile --working-copy
+    - composer-install:
+        type: script
+        script:
+            - composer install
