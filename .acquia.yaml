@@ -3,6 +3,7 @@ build-steps:
         type: script
         script:
           - echo "This is from the 'site_themes' repo"
+          - echo "Test 2"
     - drush-make:
         type: make
         makefile: d7.make
