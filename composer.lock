@@ -291,16 +291,16 @@
         },
         {
             "name": "symfony/var-dumper",
-            "version": "v2.8.12",
+            "version": "v2.8.13",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/var-dumper.git",
-                "reference": "08761341cc4a3b2d9d9578364f7c655b178254aa"
+                "reference": "7163ee02a726fdec849a37182f7ffc32389b76a8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/var-dumper/zipball/08761341cc4a3b2d9d9578364f7c655b178254aa",
-                "reference": "08761341cc4a3b2d9d9578364f7c655b178254aa",
+                "url": "https://api.github.com/repos/symfony/var-dumper/zipball/7163ee02a726fdec849a37182f7ffc32389b76a8",
+                "reference": "7163ee02a726fdec849a37182f7ffc32389b76a8",
                 "shasum": ""
             },
             "require": {
@@ -350,20 +350,20 @@
                 "debug",
                 "dump"
             ],
-            "time": "2016-09-29 14:06:15"
+            "time": "2016-10-18 15:06:24"
         },
         {
             "name": "symfony/yaml",
-            "version": "v2.8.12",
+            "version": "v2.8.13",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/yaml.git",
-                "reference": "e7540734bad981fe59f8ef14b6fc194ae9df8d9c"
+                "reference": "396784cd06b91f3db576f248f2402d547a077787"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/yaml/zipball/e7540734bad981fe59f8ef14b6fc194ae9df8d9c",
-                "reference": "e7540734bad981fe59f8ef14b6fc194ae9df8d9c",
+                "url": "https://api.github.com/repos/symfony/yaml/zipball/396784cd06b91f3db576f248f2402d547a077787",
+                "reference": "396784cd06b91f3db576f248f2402d547a077787",
                 "shasum": ""
             },
             "require": {
@@ -399,7 +399,7 @@
             ],
             "description": "Symfony Yaml Component",
             "homepage": "https://symfony.com",
-            "time": "2016-09-02 01:57:56"
+            "time": "2016-10-21 20:59:10"
         }
     ],
     "packages-dev": [],
