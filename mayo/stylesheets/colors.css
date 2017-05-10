@@ -1,0 +1,397 @@
+/* ---------- Color Module Styles ----------- */
+/* line 4, ../sass/colors.scss */
+body,
+#page-wrapper {
+  background-color: #9f8365;
+  color: #3b3b3b;
+}
+
+/* line 9, ../sass/colors.scss */
+#main,
+body.overlay {
+  background-color: #fef8dd;
+  color: #3b3b3b;
+}
+
+/* line 14, ../sass/colors.scss */
+#page {
+  /* bg */
+  background-color: #fef8dd;
+}
+
+/* line 17, ../sass/colors.scss */
+#main-menu-links li a.active,
+#main-menu-links li.active-trail a {
+  background-color: #fef8dd;
+}
+
+/* line 21, ../sass/colors.scss */
+.tabs ul.secondary li a,
+.tabs ul.primary li a {
+  border-color: #e3ddb0;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  background-color: #fef8dd;
+}
+
+/* line 28, ../sass/colors.scss */
+.tabs ul.secondary li a.active:hover,
+.tabs ul.secondary li a:hover,
+.tabs ul.primary li a.active:hover,
+.tabs ul.primary li a:hover {
+  background-color: #e7e3a6;
+}
+
+/* line 37, ../sass/colors.scss */
+.tabs ul.secondary li.active a,
+.tabs ul.primary li.active a {
+  background-color: #fef8dd;
+  border-color: #e3ddb0;
+}
+
+/* line 42, ../sass/colors.scss */
+.tabs ul.secondary li {
+  border-color: #e3ddb0;
+}
+
+/* line 45, ../sass/colors.scss */
+#header {
+  background-color: #f99301;
+  background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJvYmplY3RCb3VuZGluZ0JveCIgeDE9IjAuMCIgeTE9IjAuNSIgeDI9IjEuMCIgeTI9IjAuNSI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2Y5OTMwMSIvPjxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iI2RkZmY2MSIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9InVybCgjZ3JhZCkiIC8+PC9zdmc+IA==');
+  background-size: 100%;
+  background-image: -webkit-gradient(linear, 0% 50%, 100% 50%, color-stop(0%, #f99301), color-stop(100%, #ddff61));
+  background-image: -moz-linear-gradient(left, #f99301, #ddff61);
+  background-image: -webkit-linear-gradient(left, #f99301, #ddff61);
+  background-image: linear-gradient(to right, #f99301, #ddff61);
+}
+
+/* line 49, ../sass/colors.scss */
+a.visited,
+a {
+  color: #739400;
+}
+
+/* line 53, ../sass/colors.scss */
+a:hover,
+a:focus {
+  color: #638400;
+}
+
+/* line 57, ../sass/colors.scss */
+a:active {
+  color: #638400;
+}
+
+/* line 60, ../sass/colors.scss */
+li a.active {
+  /* important! */
+  color: #3b3b3b;
+}
+
+/* line 64, ../sass/colors.scss */
+.column-block,
+.sidebar .block {
+  background-color: #fdefaa;
+  border-color: #fceea9;
+  color: #5a5a5a;
+}
+
+/* line 70, ../sass/colors.scss */
+.column-block h2,
+.sidebar h2 {
+  border-bottom-color: #dccf93;
+  color: #5a5a5a;
+}
+
+/* line 75, ../sass/colors.scss */
+.column-block a,
+.sidebar a {
+  color: #cb6806;
+}
+
+/* line 79, ../sass/colors.scss */
+.column-block table tr th,
+.sidebar .block table tr th {
+  border-color: #dccf93;
+  border-color: #fdefaa;
+  border-color: #dccf93;
+}
+
+/* line 86, ../sass/colors.scss */
+.node {
+  background-color: #fefefe;
+  border-color: #ececec;
+}
+
+/* line 90, ../sass/colors.scss */
+.node h2 {
+  /* nodedividers */
+  border-color: #b8c195;
+}
+
+/* line 93, ../sass/colors.scss */
+.node--sticky {
+  background-color: #e6fba7;
+}
+
+/* line 96, ../sass/colors.scss */
+.node .submitted {
+  color: #777777;
+}
+
+/* line 100, ../sass/colors.scss */
+#menubar,
+#navigation {
+  border-bottom-color: #e3ddb0;
+}
+
+/* line 104, ../sass/colors.scss */
+#navigation ul li {
+  border-right-color: #e3ddb0;
+  color: #3b3b3b;
+}
+
+/* line 108, ../sass/colors.scss */
+#navigation ul li.last {
+  border-right: none;
+}
+
+/* line 111, ../sass/colors.scss */
+.highlight {
+  background-color: #e7e3a6;
+}
+
+/* line 114, ../sass/colors.scss */
+div.item-list ul.pager li a:hover,
+#navigation ul li a:hover {
+  background-color: #e7e3a6;
+}
+
+/* line 118, ../sass/colors.scss */
+.page-title {
+  background-color: #94974e;
+  color: #f1f1f1;
+}
+
+/* line 122, ../sass/colors.scss */
+#content .block h2 {
+  /* main content: block title */
+  background-color: #94974e;
+  color: #f1f1f1;
+}
+
+/* line 126, ../sass/colors.scss */
+#content .node h2 {
+  /* main content: block title */
+  background-color: transparent;
+  color: #3b3b3b;
+}
+
+/* line 130, ../sass/colors.scss */
+#content .node--sticky h2 {
+  /* main content: block title */
+  background-color: transparent;
+}
+
+/* line 133, ../sass/colors.scss */
+#footer-wrapper {
+  background-color: #564939;
+  color: #cccccc;
+}
+
+/* line 137, ../sass/colors.scss */
+#footer-wrapper a {
+  color: #f0cb00;
+}
+
+/* line 140, ../sass/colors.scss */
+#footer-wrapper .column-block {
+  background-color: #564939;
+  color: #cccccc;
+}
+
+/* line 144, ../sass/colors.scss */
+#footer-wrapper .column-block h2 {
+  border: none;
+  color: #cccccc;
+}
+
+/* line 148, ../sass/colors.scss */
+#footer-wrapper .column-block a {
+  color: #f0cb00;
+}
+
+/* line 151, ../sass/colors.scss */
+#footer {
+  background-color: #564939;
+  color: #cccccc;
+}
+
+/* line 155, ../sass/colors.scss */
+#footer a {
+  color: #f0cb00;
+}
+
+/* line 158, ../sass/colors.scss */
+.region-header,
+.region-header a,
+.region-header li a.active,
+#header #name-and-slogan,
+#header #name-and-slogan a {
+  color: #fcfcfc;
+}
+
+/* line 166, ../sass/colors.scss */
+form fieldset {
+  border: solid 1px #e3ddb0;
+}
+
+/* line 170, ../sass/colors.scss */
+blockquote {
+  border-color: #b8c195;
+}
+
+/*-------------- Additional for dark colors --------------*/
+/* line 175, ../sass/colors.scss */
+.filter-wrapper {
+  background-color: #fef8dd;
+}
+
+/* line 179, ../sass/colors.scss */
+.comment {
+  background-color: #fefefe;
+  border-color: #ececec;
+}
+
+/* line 183, ../sass/colors.scss */
+.comment h3 {
+  border-color: #b8c195;
+}
+
+/* line 186, ../sass/colors.scss */
+.comment-unpublished {
+  background-color: #fefefe;
+}
+
+/* line 189, ../sass/colors.scss */
+.comment .submitted {
+  color: #777777;
+}
+
+/* line 193, ../sass/colors.scss */
+table.views-view-grid tr {
+  background-color: #fef8dd;
+}
+
+/* line 197, ../sass/colors.scss */
+td.views-field {
+  background-color: #fef8dd;
+}
+
+/* line 201, ../sass/colors.scss */
+table tr th {
+  background-color: #dbdeab;
+  border-right-color: #fef8dd;
+}
+
+/* line 205, ../sass/colors.scss */
+fieldset {
+  border-color: #b8c195;
+  /* nodedivider color */
+}
+
+/* line 208, ../sass/colors.scss */
+tr.even,
+tr.even td {
+  background-color: #ebf0cc;
+}
+
+/* line 212, ../sass/colors.scss */
+tr.odd,
+tr.odd td {
+  background-color: #fefefe;
+}
+
+/* line 216, ../sass/colors.scss */
+tr.even td.active,
+tr.odd td.active {
+  background-image: url("../images/dark.png");
+}
+
+/* line 220, ../sass/colors.scss */
+.profile .user-picture {
+  background-color: #fef8dd;
+}
+
+/* line 223, ../sass/colors.scss */
+.column-block table tr td,
+.sidebar .block table tr td {
+  border-color: #dccf93;
+}
+
+/* line 227, ../sass/colors.scss */
+.column-block table tr.even td,
+.column-block table tr.odd td,
+.sidebar .block table tr.even td,
+.sidebar .block table tr.odd td {
+  /* sidebar table does not have regular table even/odd row background */
+  background-color: #fdefaa;
+}
+
+/*-------------- nice_menus color ---------------*/
+/* line 236, ../sass/colors.scss */
+.nice-menu a, .nice-menu a:active, .nice-menu a:visited, .nice-menu a:focus {
+  color: #739400;
+}
+
+/* line 239, ../sass/colors.scss */
+ul.nice-menu li.menuparent a {
+  /* root menu item that has drop down menu */
+  background-color: #fef8dd;
+}
+
+/* line 243, ../sass/colors.scss */
+ul.nice-menu li a {
+  /* root menu item that has no drop down menu */
+  background-color: #fef8dd;
+  border-right-color: #e3ddb0;
+}
+
+/* line 248, ../sass/colors.scss */
+ul.nice-menu li.menuparent a:hover,
+ul.nice-menu li a:hover {
+  /* root menu item hover color */
+  background-color: #e7e3a6;
+}
+
+/* line 253, ../sass/colors.scss */
+ul.nice-menu li.last ul li a,
+ul.nice-menu li ul li a,
+ul.nice-menu li ul li.last a {
+  /* drop down menu items */
+  border-color: #e3ddb0;
+}
+
+/* line 259, ../sass/colors.scss */
+ul.nice-menu li ul li.menuparent {
+  /* drop down menu items that has child menu */
+  background-color: #fef8dd;
+}
+
+/* line 263, ../sass/colors.scss */
+ul.nice-menu li.menuparent li {
+  /* drop down menu items that has no child menu */
+  background: none;
+  background-color: #fef8dd;
+}
+
+/* line 268, ../sass/colors.scss */
+ul.nice-menu li.menuparent li:hover {
+  background: none;
+  background-color: #e7e3a6;
+}
+
+/* line 272, ../sass/colors.scss */
+ul.nice-menu li ul {
+  border: solid 1px #e3ddb0;
+}
